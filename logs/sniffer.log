@@ -1,0 +1,14 @@
+2026-04-28 19:18:58,540 [INFO] Деректер базасы іске қосылды: logs/ids_alerts.db
+2026-04-28 19:18:58,541 [INFO] AnomalyDetector инициализирован (Z-score baseline)
+2026-04-28 19:18:58,541 [INFO] CorrelationEngine инициализирован
+2026-04-28 19:18:58,562 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.8:5000
+2026-04-28 19:18:58,563 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-28 19:18:58,740 [INFO] 127.0.0.1 - - [28/Apr/2026 19:18:58] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-28 19:18:58,991 [INFO] 127.0.0.1 - - [28/Apr/2026 19:18:58] "GET /login HTTP/1.1" 200 -
+2026-04-28 19:19:00,350 [INFO] 127.0.0.1 - - [28/Apr/2026 19:19:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-28 19:19:00,533 [INFO] 127.0.0.1 - - [28/Apr/2026 19:19:00] "GET / HTTP/1.1" 200 -
+2026-04-28 19:19:00,914 [INFO] 127.0.0.1 - - [28/Apr/2026 19:19:00] "GET /api/status HTTP/1.1" 200 -
+2026-04-28 19:19:01,755 [INFO] 127.0.0.1 - - [28/Apr/2026 19:19:01] "GET /why-ids HTTP/1.1" 200 -
